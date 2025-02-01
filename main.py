@@ -17,14 +17,6 @@ from fpdf import FPDF
 from hashlib import sha256  # For password hashing
 
 
-# Database connection
-# DB_CONFIG = {
-#     "host": "localhost",  # Replace with your MySQL host
-#     "user": "root",       # Replace with your MySQL username
-#     "password": "ilanadmin",  # Replace with your MySQL password
-#     "database": "device_management"  # Replace if your database name is different
-# }
-# Database connection
 DB_CONFIG = {
     "host": os.getenv("DB_HOST"),
     "user": os.getenv("DB_USER"),
