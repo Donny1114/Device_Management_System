@@ -8,7 +8,7 @@ Run this command to install all needed libraries:
 
 
 To run this app from other pc in same network
-    ## Other PC
+## Other PC
 1. Copy the whole folder project then create the virtual environment
     and create the virtual env 
     ## Create a virtual environment
