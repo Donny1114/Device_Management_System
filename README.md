@@ -8,18 +8,18 @@ Run this command to install all needed libraries:
 
 
 To run this app from other pc in same network
-    Other PC
+    ## Other PC
 1. Copy the whole folder project then create the virtual environment
     and create the virtual env 
-    # Create a virtual environment
+    ## Create a virtual environment
     python -m venv venv
 
-    # Activate it (Windows)
+    ## Activate it (Windows)
     venv\Scripts\activate
 
 2. Run pip install -r requirements.txt
 
- MYSQL
+ ## MYSQL
 3. Your MySQL server allows remote connections (Check bind-address in my.ini or mysqld.cnf)
     C:\Program Files\MySQL\MySQL Server X.X\my.ini
     Add this in my.ini 
