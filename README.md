@@ -1,7 +1,7 @@
 # Device_Management_System
 A device tracking system built with python
 
- ## Own Serve PC
+ ## Own Server PC
 1. Create the database in mysql by using the sql file provided
 2. Run this command to install all needed libraries:
       pip install -r requirments.txt
@@ -11,10 +11,10 @@ To run this app from other pc in same network
 ## Other PC
 1. Copy the whole folder project then create the virtual environment
     and create the virtual env 
-    ## Create a virtual environment
+    ### Create a virtual environment
     python -m venv venv
 
-    ## Activate it (Windows)
+    ### Activate it (Windows)
     venv\Scripts\activate
 
 2. Run pip install -r requirements.txt
