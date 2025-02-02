@@ -1,10 +1,10 @@
 # Device_Management_System
 A device tracking system built with python
 
-
-
-Run this command to install all needed libraries:
-    pip install -r requirments.txt
+ ## Own Serve PC
+1. Create the database in mysql by using the sql file provided
+2. Run this command to install all needed libraries:
+      pip install -r requirments.txt
 
 
 To run this app from other pc in same network
