@@ -4,7 +4,7 @@ A device tracking system built with python
  ## Own Server PC
 1. Create the database in mysql by using the sql file provided
 2. Run this command to install all needed libraries:
-      pip install -r requirments.txt
+      `pip install -r requirments.txt`
 
 
 To run this app from other pc in same network
@@ -12,12 +12,12 @@ To run this app from other pc in same network
 1. Copy the whole folder project then create the virtual environment
     and create the virtual env 
     ### Create a virtual environment
-    python -m venv venv
+    `python -m venv venv`
 
     ### Activate it (Windows)
-    venv\Scripts\activate
+    `venv\Scripts\activate`
 
-2. Run pip install -r requirements.txt
+2. Run `pip install -r requirements.txt`
 
  ## MYSQL
 3. Your MySQL server allows remote connections (Check bind-address in my.ini or mysqld.cnf)
@@ -32,10 +32,10 @@ GRANT ALL PRIVILEGES ON yourdatabase.* TO 'remote_user'@'%';
 FLUSH PRIVILEGES;
 
 5. Create a batch file (run_app.bat) in the same folder as main.py to just double click the file:
-   @echo off
+   `@echo off
    cd /d "%~dp0"
    venv\Scripts\python.exe main.py
-   pause
+   pause`
 
 
 
